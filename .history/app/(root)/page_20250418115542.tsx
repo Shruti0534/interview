@@ -37,7 +37,7 @@ async function Home() {
               <InterviewCard key={interview.id || index} {...interview} />
             ))
           ) : (
-            <p>Please take an interview to know more</p>
+            <p>Please take an interview to know </p>
 
           )}
         </div>
